@@ -1,0 +1,79 @@
+page-bullying {
+    .headericon {
+        margin-right: 2%;
+    }
+    .headericon img{
+        width:100%;
+    }
+    .toolbar-title{
+        font-size:1.3em;       
+    }
+    .headerimg{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: -3%;
+        border-bottom: 5px solid #D98CBA;
+        box-shadow: none;
+        background: none;
+        height:40%
+    }
+    .headerimg img{
+        width:60%;
+        margin-top:2%;
+    }
+    .accordion-list {
+        background: color($colors, light);
+        margin-top: -2%;
+    }
+    .section {
+        background: #D98CBA;
+        color: #000;
+        margin-bottom: 4px;
+        padding: 8%;
+    }
+    .section-active {
+        background: #D98CBA;
+        color: #fff;
+    }
+ 
+    .child {
+        background: #D98CBA;
+        color: #fff;
+        margin-bottom: 4px;
+    }
+    .child-item {
+        background: #D98CBA;
+        padding: 10px;
+    }
+    .label {
+        margin: 0px;
+        color: #fff;
+    }
+    .label h1{
+        font-size: 2rem;
+        padding-top: 3rem;
+    }
+    .label h2{
+        padding-top: 1rem;
+        color: #fff;
+        margin-bottom: 13px;
+        margin-left: 1rem;
+        font-size: 1.17rem;
+        font-weight: 400;
+        border-bottom: 2px solid #fff;
+        font-family: "lato", sans-serif;
+    }
+    .label p{
+        text-transform: none;
+        color:#fff;
+        font-weight:400;
+        margin-left: 1rem;
+        font-family: "lato", sans-serif;
+    }
+    .list {
+        margin-bottom: 4px;
+    }
+    img{
+        width:160px;
+    }
+}

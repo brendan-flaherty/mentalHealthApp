@@ -1,0 +1,113 @@
+page-usefulcontacts {
+  .headericon {
+        margin-right: 2%;
+    }
+    .headericon img{
+        width:100%;
+    }
+    .headerimg{
+        margin-left: 0%;
+        width: 100%;
+        margin-top: -3%;
+        border-bottom: 5px solid #ba5a93;
+        box-shadow: none;
+        background: none;
+        height:40%
+    }
+    .headerimg img{
+        width:60%;
+        margin-top:2%;
+    }
+    .accordion-list {
+        background: color($colors, light);
+        margin-top: 1%;
+    }
+    .useful{
+        color: #fff;
+        margin-bottom: 4px;
+        padding: 10%;
+    }
+
+    #usefulSection0  {
+        background-color: #4f4e72;
+
+    }
+    #usefulSection1 {
+        background-color: #BA5A93;
+    }
+    .child{
+        background-color: #BA5A93;
+        color: #fff;
+        margin-bottom: 4px;
+    }
+    .child-item{
+        background-color: #BA5A93;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #usefulSection2 {
+        background-color: #C4C461;
+    }
+
+    #usefulSection3 {
+        background-color: #5A6062;
+    }
+
+    #usefulSection4 {
+        background-color: #7F7E98;
+    }
+
+    .child{
+        background-color: #4f4e72;
+        color: #fff;
+        margin-bottom: 4px;
+    }
+    .child-item{
+        background-color: #4f4e72;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .label {
+        margin: 0px;
+        color: #fff;
+    }
+    .label h1{
+        font-size: 2.4rem;
+        padding-top: 3rem;
+    }
+    .label h2{
+        padding-top: 3rem;
+        color: #fff;
+        margin-bottom: 13px;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        font-weight: 400;
+        font-family: $font-family-base;
+        width:55%;
+    }
+    .label p{
+        text-transform: none;
+        color:#fff;
+        font-weight:400;
+        margin-left: 1rem;
+        font-family: "lato", sans-serif;
+    }
+    .list {
+        margin-bottom: 4px;
+    }
+    .contacts{
+        float: right;
+        width: 40%;
+        margin-top: -5rem;
+    }
+    .info{
+        width:50%;
+    }
+    .contactDetails{
+        font-size: 3.8rem;
+        margin-right: 10%;
+    }
+
+}

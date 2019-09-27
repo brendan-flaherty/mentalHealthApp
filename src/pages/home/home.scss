@@ -1,0 +1,73 @@
+page-home {
+    .headericon {
+        margin-right: 2%;
+    }
+    .headericon img{
+        width:100%;
+    }
+    .grid{
+        width: 110%;
+        margin-top: 1%;
+        margin-left: -5%;
+    }
+    .card-header h1{
+        text-align: center;
+        color: #fff;
+        padding-top: 6%;
+        font-size: 2.8rem;
+    }
+    .home{
+        height: 10rem;
+    }
+   .home h4{
+        color: #fff;
+        text-align: center;
+    }
+    .home.one{
+        background-color:#BA5A93;
+
+    }
+    .home.two{
+        background-color:#C4C461;
+        width: 80%;
+    }
+    .home.two h4{
+        margin-top:-1rem;
+    }
+    .home.three{
+        background-color: #4f4e72;
+        width: 80%;
+        margin-left: 20%;
+    }
+    .home.three h4{
+        margin-top:-1rem;
+    }
+    .home.four{
+        background-color: #929292;
+
+    }
+    .home.four p{
+        color: #fff;
+        padding-top: 1rem;
+    }
+    .home.five{
+        background-color:#4F4E72;
+        height:auto;
+    }
+    .item{
+        background:none;
+        border:none;
+        margin-top: -2rem;
+    }
+    ion-icon{
+        padding-right:1rem;
+    }
+    .label{
+        color: #fff;
+        font-size: 1.4rem !important;
+        font-family: lato;
+    }
+    .fixedLabel{
+        padding-top: 2rem;
+    }
+}

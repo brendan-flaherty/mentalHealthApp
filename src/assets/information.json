@@ -1,0 +1,964 @@
+{
+  "depression": [
+    {
+      "name": "What is Depression",
+      "children": [
+        {
+          "id": 1,
+          "name": "Life is worth talking about",
+          "information": "Everyone occasionally feels blue or sad, but these feelings usually pass within a couple of days. We often use the expression ‘I'm feeling depressed’ when we're feeling sad or miserable about life. Usually, these feelings pass with time. But if these feelings are interfering with your life and don't go away after a couple of weeks, or if theycome back, over and over again,it could be a sign that you are depressed in the medical sense of the term"
+        },
+        {
+          "id": 2,
+          "name": "Bi-Polar Disorder",
+          "information": "Bipolar disorder is the name used to describe a set of 'mood swing' conditions, the most severe form of which used to be called 'manic depression'. With bipolar disorder,moods can swing between low, high and mixed. It is important to note that everyone has mood swings from time to time. It is only when these moods become extreme andinterfere with life that bipolar disorder may be present and medical assessment may be needed",
+          "informationtwo": "Many people with a depressive illness never seek treatment. But the vast majority, eventhose with the most severe depression, can get better with treatment. If you are concerned that you or someone you know might be showing signs of depression it is important to get support."
+        }
+      ]
+    },
+    {
+      "name": "Symptoms",
+      "children": [
+        {
+          "option1": "Persistent sad, anxious or ‘empty’ feelings",
+          "option2": "Feelings of hopelessness and/or pessimism",
+          "option3": "Feelings of guilt, worthlessness and/or helplessness",
+          "option4": "Irritability, restlessness",
+          "option5": "Loss of interest in activities or hobbies once pleasurable, including sex",
+          "option6": "Fatigue and decreased energy",
+          "option7": "Difficulty concentrating, remembering details and making decisions",
+          "option8": "Overeating, or appetite loss",
+          "option9": "Thoughts of suicide, suicide attempts",
+          "option10": "Persistent aches or pains, headaches"
+        }
+      ]
+    },
+    {
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Aware",
+          "information": "Helping to Defeat Depression",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Spunout",
+          "information": "Irish Youth Health Information",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Reachout",
+          "information": "Helping you get through tough times",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 4,
+          "name": "Grow",
+          "information": "Mental Health Movement in Ireland",
+          "phone": "",
+          "cell": "",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "anxiety": [
+    {
+      "name": "Anxiety & OCD",
+      "children": [
+        {
+          "id": 1,
+          "name": "Anxiety",
+          "information": "Everybody gets anxious at some point in their life. Anxiety is a feeling of worry, nervousness,uneasiness, feeling faint, sweating, having jelly legs and feeling your heart racing. When these symptoms get really bad it may lead to a panic attack. Panic attacks can be extremely frightening however they are harmless and very treatable.",
+          "informationtwo": "Anxiety can affect both your physical health and your mental health (your behavior, feelings and emotions). The symptoms can depend on a number of factors. They may pass quickly or may stay for a long period of time. It may be worth talking to your doctor or a counselor about ways to reduce anxiety"
+        },
+        {
+          "id": 2,
+          "name": "OCD",
+          "information": "OCD is a form of anxiety where a person feels they have to do things repeatedly to prevent bad things happening to themselves or others. (For example), washing your hands repeatedly, switching lights on and off repeatedly. It is only when this behavior gets in the way of your daily life that you may need to seek help"
+        }
+      ]
+    },
+    {
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Teen Line",
+          "information": "7pm to 10pm - 7 nights",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Shine",
+          "information": "Supporting People Affected By Mental ill Health",
+          "phone": "",
+          "cell": "",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Out and About Ireland",
+          "information": "Anxiety Resource Centre",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 4,
+          "name": "www.yourmentalhealth.ie",
+          "information": "The National Office for Suicide Prevention",
+          "website": ""
+        },
+        {
+          "id": 5,
+          "name": "OCD Ireland",
+          "information": "Information on OCD, Trichotillomania & Body Dysmorphic Disorder sufferers in Ireland",
+          "website": ""
+        },
+        {
+          "id": 6,
+          "name": "Cork Counseling Service",
+          "information": "Dedicated to providing professional, accessible and high quality counseling services",
+          "phone": "+353 21 493 6006",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "eating": [
+    {
+      "name": "Eating Disorders",
+      "children": [
+        {
+          "id": 1,
+          "name": "Let Someone Know!",
+          "information": "Eating disorders are not primarily about food, but can be seen as a way of coping with emotional distress or other underlying issues. For the person with an eating disorder, controlling food and the body is their way of relieving distress and achieving some degree of control over their life. Eating Disorders can effect anybody, male or female. With appropriate help and support, people can, and do, recover from eating disorders. Eating disorders can be complex. There are variations in the typical signs and not all symptoms will apply to all people. Remember there is help available! With appropriate help and support, people can and do recover from eating disorders",
+          "informationtwo": "Eating disorders can be complex. There are variations in the typical signs and not all symptoms will apply to all people",
+          "informationthree": "Remember there is help available! With appropriate help and support, people can and do recover from eating disorders"
+        }
+      ]
+    },
+    {
+      "name": "Symptoms",
+      "list": [
+        {
+          "option1": "Body and mind are starved",
+          "option2": "Excessive thinking and talking about food",
+          "option3": "Refusal to eat enough",
+          "option4": "Feeling worthless",
+          "option5": "Being underweight",
+          "option6": "Binge eating",
+          "option7": "Weight going up & down",
+          "option8": "Trying to be ‘perfect’",
+          "option9": "Fear of being overweight"
+        }
+      ]
+    },
+    {
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Body Whys",
+          "information": "The Eating Disorder Association of Ireland",
+          "informationtwo" : "alex@bodywhys.ie",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Overeaters Anonymous",
+          "information": "Help with overeating issues",
+          "cell": "",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Youth Work Ireland",
+          "information": "Online Support for 13 - 18yrs available Sundays 7.30pm - 9.00pm",
+          "website": ""
+        },
+        {
+          "id": 4,
+          "name": "Body Positive Website",
+          "information": "Boosting body image at any weight",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "relation": [
+    {
+      "name": "Relationships & Sexuality",
+      "children": [
+        {
+          "id": 1,
+          "name": "Relationships & Sexuality",
+          "information": "Exploring your sexuality and developing relationships can be a positive and challenging experience during teenage years. Society can place a lot of labels on people - especially in relation to sexuality and relationships. At a stage where you are exploring this for yourself it is important that you take time to understand your own feelings.",
+          "informationtwo": "There are a broad range of sexual orientations including: heterosexual, bisexual, gay, lesbian and transgender. As part of exploring their sexuality, it is common for people to go through a range of feelings and experiences before their sexual identity emerges",
+          "informationthree" : "If you feel you need support, or someone to listen to you in a non judgmental way, be sure to have a look at some of the contact details below where you can avail of support and information free of charge"
+        }
+      ]
+    },
+    {
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Youth Health Service",
+          "information": "Helping to Defeat Depression",
+          "informationtwo" :"yhs@mailp.hse.ie",
+          "phone": "",
+          "cell" : "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Sexual Health Centre",
+          "information": "Promotes and supports sexual health without judgement",
+          "cell": "",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Cork Family Planning",
+          "information": "Life, love & relationships - get all the facts B4 U Decide",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 4,
+          "name": "STI Clinic, Victoria Hospital",
+          "information": "Promoting Sexual Health and Awareness",
+          "phone": ""
+        },
+                {
+          "id": 5,
+          "name": "Cura",
+          "information": "Information Resource",
+          "phone": "",
+          "cell" : "",
+          "website": ""
+        },
+        {
+          "id": 6,
+          "name": "West Cork Crisis Pregnancy Counseling Service",
+          "information": "Crisis pregnancy counselling services",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 7,
+          "name": "Treoir (for unmarried parents)",
+          "information": "Information Pack for unmarried parents",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 8,
+          "name": "Teen Parent Support",
+          "information": "Support Programme",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 9,
+          "name": "Cork Gay Project",
+          "information": "Community development organisation",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 10,
+          "name": "Linc",
+          "information": "Community development organisation",
+          "phone": "",
+          "cell" : "",
+          "website": ""
+        },
+                {
+          "id": 11,
+          "name": "Belong To",
+          "information": "Providing safe and fun services to LGBT young people across Ireland",
+          "phone": "",
+          "website": ""
+        },
+                {
+          "id": 12,
+          "name": "www.lgbt.ie/",
+          "information": "Information and Support",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 13,
+          "name": "Sexual Violence",
+          "information": "Information and Support",
+          "phone": "",
+          "website": ""
+        },
+                {
+          "id": 14,
+          "name": "Spunout",
+          "information": "Empowering young people with information",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "bullying": [
+    {
+      "name": "Bullying & Abuse",
+      "children": [
+        {
+          "id": 1,
+          "name": "Talk Out, Don't Act Out",
+          "information": "When somebody does something to control, bully or hurt someone else: it is called abuse. Abuse can take many forms such as physical, sexual, emotional and verbal abuse."
+        },
+        {
+          "id": 2,
+          "name": "Physical Abuse",
+          "information": "This is control by violence or threat of violence including hitting, biting, burning or shaking"
+        },
+        {
+          "id": 3,
+          "name": "Sexual Abuse",
+          "information": "Is putting a person down and undermining their confidence by using threats, insults, name calling or shouting.."
+        },
+        {
+          "id": 4,
+          "name": "Verbal Abuse",
+          "information": "Is putting a person down and undermining their confidence by using threats, insults, name calling or shouting..",
+          "informationTwo": "Bullying is the ongoing abuse of another person through physical, emotional or verbalmeans, often in the presence of others. Nobody has the right to hurt you physically or emotionally even if they are in a position of authority or they say they love you. Abuse is wrong. Always refuse to accept abuse and remember that secrecy is an abusers best weapon,so NEVER KEEP IT A SECRET and remember HELP IS ALWAYS AVAILABLE.The most important thing is to tell somebody you trust."
+        }
+      ]
+    },
+    {
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Parentline",
+          "information": "Guiding Parents, Supporting Families",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "West Cork Women Against Violence",
+          "information": "Confidential support, listening and information service",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Sexual Violence Centre, Cork",
+          "information": "Information and Support",
+          "phone": "",
+          "cell": "",
+          "website": ""
+        },
+        {
+          "id": 4,
+          "name": "OSS Cork",
+          "information": "Domestic Violence Information Resource Centre",
+          "phone": "",
+          "website": ""
+        },
+                {
+          "id": 5,
+          "name": "Support for Male Victims of Domestic Abuse",
+          "information": "Confidential helpline, a support and information service",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 6,
+          "name": "Anti Bulling Network",
+          "information": "The Anti-Bullying Network is an independent operation tackling bullying in the community",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "alcohol": [
+    {
+      "name": "Alcohol",
+      "children": [
+        {
+          "id": 1,
+          "name": "Don't Bottle it, Tackle it!",
+          "information": "Most of us use it for enjoyment, but sometimes drinking can be a problem. Fights, arguments,money troubles, family upsets, casual sex and crisis pregnancies are often a result of having had too much to drink. Alcohol can be the cause of hospital admissions for physical illnesses and accidents. It is also important to remember that alcohol has the potential to be addictive. Alcohol can make you do things you would not normally do.",
+          "informationTwo": "Taking control and staying within low-risk drinking limits Try to cut down to low risk drinking levels by using the Standard Drinking Guide.",
+          "informationThree" : "In Ireland, a standard drink is 10 grams of pure alcohol, normally contained in a single measure of spirits = a half pint of beer = a small glass of wine = an alcopop"
+        },
+        {
+          "id": 4,
+          "information": "For drinking to be considered ‘low risk’, the Department of Health and Children currentlyadvises: Adult women should drink less than 14 standard drinks per week; Adult men should drink less than 21 standard drinks per week.",
+          "informationTwo": "These are low risk weekly limits, which should be spread over the week and not saved for a single drinking occasion ie. binge drinking.",
+          "informationThree" : "Caution: These guidelines do not apply to people who are ill, run down, on medication or to children. It is not advisable for women to consume alcohol if pregnant or trying to conceive."
+        }
+      ]
+    },
+    {
+      "name": "Symptoms",
+      "list": [
+        {
+          "option1": "Persistent sad, anxious or ‘empty’ feelings",
+          "option2": "Feelings of hopelessness and/or pessimism",
+          "option3": "Feelings of guilt, worthlessness and/or helplessness",
+          "option4": "Irritability, restlessness",
+          "option5": "Loss of interest in activities or hobbies once pleasurable, including sex",
+          "option6": "Fatigue and decreased energy",
+          "option7": "Difficulty concentrating, remembering details and making decisions",
+          "option8": "Insomnia, early–morning wakefulness, or excessive sleeping",
+          "option9": "Overeating, or appetite loss",
+          "option10": "Thoughts of suicide, suicide attempts",
+          "option11": "Persistent aches or pains, headaches"
+        }
+      ]
+    },
+    {
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Drink Aware",
+          "information": "Raising awareness, creating understanding",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Al-Anon and Alateen",
+          "information": "Offers understanding and support for families and friends",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Alcoholics Anonymous",
+          "information": "Support and Advice",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 4,
+          "name": "Arbour House",
+          "information": "Free counseling service",
+          "phone": ""
+        },
+                {
+          "id": 5,
+          "name": "Tabor Lodge",
+          "information": "Support and Care for Addictions",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 6,
+          "name": "Matt Talbot Adolescent Services",
+          "information": "Providing free Drug and Alcohol treatment for young people ages 14 – 23 years",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 7,
+          "name": "Talk To Frank",
+          "information": "Friendly,confidential drugs advice",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "drugs": [
+    {
+      "name": "Drugs",
+      "children": [
+        {
+          "id": 1,
+          "name": "Let Talk about Drugs!",
+          "information": "While there is alot of concern about illegal drugs, the most harm and the greatest risk to young people comes from using legal drugs such as alcohol, cigarettes and the inappropriate use of medicines, over-the-counter and/or prescription. People use many different kinds of drugs. These drugs may be legal or illegal, helpful or harmful. Every drug has side-effects and risks, but some drugs have more risks than others, especially illegal drugs.",
+          "informationTwo": "Using drugs can become a problem depending on a number of factors:"
+        },
+        {
+          "id": 2,
+          "list": [
+        {
+          "option1": "What drug is used?",
+          "option2": "Who is using the drug (especially their mood and personality)?",
+          "option3": "Why they are using the drug?",
+          "option4": "Where and How they are using the drug?"
+        }
+      ]
+        }
+      ]
+    },
+    {
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Drugs & Alcohol Information",
+          "information": "Drug and Alcohol Information and Support",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Talk To Frank",
+          "information": "Friendly,confidential drugs advice",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Drugs Helpline",
+          "information": "Confidential Support Service",
+          "phone": ""
+        },
+        {
+          "id": 4,
+          "name": "Narcotics Anonymous",
+          "information": "Provides help from peers and offers an ongoing support network",
+          "phone": "",
+          "website": "",
+          "websiteTwo": ""
+        },
+        {
+          "id": 5,
+          "name": "Bandon Community Drugs Initiative",
+          "information": "Provides support to young people",
+          "phone": ""
+        },
+                {
+          "id": 6,
+          "name": "Arbour House Treatment Services",
+          "information": "Free counseling service",
+          "phone": ""
+        },
+        {
+          "id": 7,
+          "name": "Matt Talbot Adolescent Services",
+          "information": "Providing free Drug and Alcohol treatment for young people ages 14 – 23 years",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 8,
+          "name": "Kinsale Garda Station",
+          "information": "Community Garda Network",
+          "phone": ""
+        },
+        {
+          "id": 9,
+          "name": "Support and Care for Addictions",
+          "information": "Community Garda Network",
+          "phone": "",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "psych": [
+    {
+      "name": "What is Psychosis?",
+      "children": [
+        {
+          "id": 1,
+          "name": "Help is at Hand",
+          "information": "Some drugs such as hallucinogens, marijuana and amphetamines may trigger a psychotic episode. Treatment of psychosis usually involves medication, and if someone is experiencing a psychotic episode, it is important that they seek help from a doctor, psychiatrist or a clinical psychologist.",
+          "informationTwo": "If you are concerned that you or someone you know may be experiencing some of the following symptoms, contact your GP:"
+        },
+        {
+          "id": 2,
+          "list": [
+        {
+          "option1": "Having hallucinations",
+          "option2": "Strange & disorganised thinking",
+          "option3": "Hearing voices that may not be heard by anyone",
+          "option4": "Having false beliefs know as delusions",
+          "option5": "Experiencing paranoia",
+          "option6": "May appear quite flat",
+          "option7": "Strange & disorganised behaviour",
+          "option8": "Having difficulty speaking"
+        }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Schizophrenia?",
+      "children": [
+        {
+          "id": 1,
+          "information": "Schizophrenia is a serious mental illness characterised by disturbances in a person’sthoughts, perceptions, emotions and behavior. It affects approximately one in every hundred people worldwide. There are a number of signs and symptoms. They are divided into two groups: ‘active symptoms’ that reflect new or unusual forms of thought and behaviour such as delusions, and ‘passive symptoms’ which reflect a loss of previous feelings and abilities."
+        }
+      ]
+    },
+    {
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Shine",
+          "information": "Supporting People Affected By Mental ill Health",
+          "phone": "",
+          "cell": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Reachout",
+          "information": "Helping you get though tough times",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Spunout",
+          "information": "Empowering young people with information",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "suicide": [
+    {
+      "name": "What is Self-Harm?",
+      "children": [
+        {
+          "id": 1,
+          "name": "You are not Alone!",
+          "information": "Self-harm is when someone deliberately hurts, cuts or injures him/herself. Self-harm is a communication of deep distress. Any form of self-harm is a call for help and should be taken seriously.",
+          "informationTwo": "If you self-harm it is very important that you seek help and support. It might seem that nobody understands what you're going through, or that you are alone, but remember there is help available."
+        }
+      ]
+    },
+    {
+      "name": "What is Suicide?",
+      "children": [
+        {
+          "id": 1,
+          "name": "Suicide",
+          "information": "Suicide is not chosen; it happens when pain exceeds resources for coping with pain. You are not weak, crazy or a bad person because you feel suicidal. It doesn't even mean that you really want to die - it only means that you have more pain than you can cope with right now.",
+          "informationTwo": " If you are feeling suicidal or want to end your life, it is important that you keep yourselfsafe. Try to remember that thoughts about taking your life are just thoughts. They do not mean you have to act on them, no matter how overwhelming they are. The most important thing to do if you are having thoughts of suicide is to talk to someone. Reach out to someone who can help. It is okay to ask for help.",
+          "informationThree": "What to do to help if you are concerned that someone has thoughts of suicide"        
+        },
+        {
+          "id": 4,
+          "list": [
+        {
+          "option1": "Speak openly about suicide",
+          "option2": "Show you care",
+          "option3": "Listen",
+          "option4": "Encourage a person to get help",
+          "option5": "Contact a GP, the Samaritans or the Emergency Services"
+        }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Samaritans",
+          "information": "Helping to Defeat Depression",
+          "informationTwo" : "jo@samaritans.org",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Suicide Prevention Helpline",
+          "information": "Helping you get though tough times",
+          "phone": ""
+        },
+        {
+          "id": 3,
+          "name": "Emergency Services",
+          "information": "Emergency Advice",
+          "phone": ""
+        },
+        {
+          "id": 4,
+          "name": "Suicide Aware",
+          "information": "Light in the Darkness",
+          "website": ""
+        },
+        {
+          "id": 5,
+          "name": "The National Office for Suicide Prevention",
+          "information": "Information Resource",
+          "website": ""
+        },
+                {
+          "id": 6,
+          "name": "MindingYourHead.info",
+          "information": "Look After Your Mental Health",
+          "informationTwo": "Freetext HELP to 50015",
+          "website": ""
+        },
+        {
+          "id": 7,
+          "name": "Pieta House",
+          "information": "Preventing Suicde & self-harm",
+          "phone": "",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "grief": [
+    {
+      "name": "Grief",
+      "children": [
+        {
+          "id": 1,
+          "name": "To grieve is normal - and it takes time",
+          "information": "It is normal to feel a sense of shock when someone close to you has died. Experiencingshock can mean you have a physical and an emotional reaction. You may feel dizzy, nauseous, dazed, numb or empty.",
+          "informationTwo": "Everybody grieves differently and lots of things can affect the way people experience grief. There is help available. As the shock and numbness lessens, you are likely to start grieving. There are different factors that may affect the way people grieve. Knowing these may help to understand yours and other people’s reactions to the loss. If someone’s reaction is different to yours, it does not necessarily mean they care less. Some reasons why people grieve:"
+        },
+        {
+          "id": 2,
+          "list": [
+        {
+          "option1": "The type of relationship they had with the person",
+          "option2": "Gender - males and females may have different ways of managing their grief. Males are more likely to feel restrained while females are more likely to share their feelings",
+          "option3": "Cultural background - cultural groups express grief in different ways",
+          "option4": "Other Losses - the new loss may bring up previous loss – which can trigger more grief"
+
+        }
+          ]
+        },
+        {
+          "id": 3,
+          "information": "There is help available"
+        }
+      ]
+    },
+{
+      "name": "Helpful Links",
+      "children": [
+        {
+          "id": 1,
+          "name": "Barnardos",
+          "information": "Practical and Professional Support",
+          "phone": "",
+          "cell": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "HSE Info line",
+          "information": "Information Resource",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Clonakilty Bereavement Support Group",
+          "information": "Advice and Support",
+          "phone": ""
+        },
+        {
+          "id": 4,
+          "name": "Pieta House",
+          "information": "Preventing Suicde & self-harm",
+          "phone": "",
+          "website": ""
+        }
+      ]
+    }
+  ],
+  "useful": [
+    {
+      "name": "General Contacts",
+      "children": [
+        {
+          "id": 1,
+          "name": "KYSS",
+          "information": "Call Ger for a free & Confidential Youth Support Service.",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Barnardos",
+          "phone": "",
+          "cell": "",
+          "website": ""
+        },
+        {
+          "id": 3,
+          "name": "Parentline",
+          "phone": "",
+          "cell": "",
+          "website": ""
+        },
+        {
+          "id": 4,
+          "name": "HSE Info Line",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 5,
+          "name": "Childline",
+          "information": "24hr service for under18s Online and text service available too",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 6,
+          "name": "ISPCC",
+          "information": "24hr service for under18s Online and text service available too",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 7,
+          "name": "MABS (Money Advice and Budgeting Service)",
+          "information": " Open Mon-Fri 9am-8pm",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 8,
+          "name": "Cork Counseling Centre",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 9,
+          "name": "Youth Counseling Service, YMCA",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 10,
+          "name": "Cork Youth Information Centre",
+          "phone": ""
+        },
+        {
+          "id": 11,
+          "name": "West Cork Youth Information Centre",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 12,
+          "name": "Spunout",
+          "information": "Irish Youth Health Information",
+          "website": ""
+        },
+        {
+          "id": 13,
+          "name": "www.lgbt.ie/",
+          "information": "Information and Support",
+          "phone": "",
+          "website": ""
+        }
+      ]
+    },
+    {
+      "name": "Local GP Contacts",
+      "children": [
+        {
+          "id": 1,
+          "name": "Market Place Surgery Kinsale",
+          "phone": ""
+        },
+        {
+          "id": 2,
+          "name": "Medical Centre Kinsale",
+          "phone": ""
+        },
+        {
+          "id": 3,
+          "name": "Inishannon Medical Centre",
+          "phone": ""
+        },
+        {
+          "id": 4,
+          "name": "Village Medical Centre, Ballinhassig",
+          "phone": ""
+        },
+        {
+          "id": 5,
+          "name": "Evening / Weekend GP Services Southdoc",
+          "phone": ""
+        }
+      ]
+    },
+    {
+      "name": "Out of Home",
+      "children": [
+        {
+          "id": 1,
+          "name": "Cork Foyer",
+          "phone": "",
+          "cell": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Liberty Street House",
+          "phone": ""
+        }
+      ]
+    },
+    {
+      "name": "Abuse",
+      "children": [
+        {
+          "id": 1,
+          "name": "HSE National Conselling Service",
+          "phone": "",
+          "website": ""
+        },
+        {
+          "id": 2,
+          "name": "Harbour Conselling Service",
+          "phone": ""
+        },
+        {
+          "id": 3,
+          "name": "National 24 Hour Helpline",
+          "information": "For victims of rape and sexual abuse",
+          "phone": ""
+        },
+        {
+          "id": 4,
+          "name": "Connect",
+          "information": "Connect is a free adult phone counseling service",
+          "phone": "",
+          "website" :""
+        },
+        {
+          "id": 5,
+          "name": "One in Four",
+          "information": "Sexual Abuse - From Surviving to Living",
+          "phone": "",
+          "website" :""
+        }
+      ]
+    },
+    {
+      "name": "Gambling",
+      "children": [
+        {
+          "id": 1,
+          "name": "Gamblers Anonymous",
+          "phone": "",
+          "website" :""
+        }
+      ]
+    }
+  ]
+}

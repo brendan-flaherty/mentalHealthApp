@@ -1,0 +1,76 @@
+<!--
+  Generated template for the DepressionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <!-- <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon> -->
+    <ion-title>Depression</ion-title>
+    <ion-icon class="headericon" float-right role="img"><img src="assets/icon/nav-logo.png"  /></ion-icon>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card class="headerimg">
+    <img src='assets/imgs/depress_2.png' float-right />
+  </ion-card>
+
+
+      <!-- ACCORDION -->
+  <ion-list class="accordion-list">
+    <!--First Level-->
+    <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>
+
+      <button ion-item (click)="toggleSelect(i)" detail-none [ngClass]="{'section-active' : item.open, 'section': !item.open}">
+        <!--<ion-icon item-left name = "arrow-forward" *ngIf="!item.open"></ion-icon>
+        <ion-icon item-left name = "arrow-down" *ngIf="item.open"></ion-icon>-->
+        <h1>{{item.name}}</h1>
+      </button>
+      <ion-list *ngIf="item.children && item.open" no-lines>
+
+        <!--Second Level-->
+
+        <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>
+          <!--Toggle Button-->
+          <button ion-item (click)="toggleItem(i, j)" detail-none class="child-item" *ngIf="child.children">
+        {{child.name}}
+        {{children.id}}
+      </button>
+
+          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
+            <h2>{{child.name}}</h2>
+            <p [attr.id]="'info'+j" class="info" >{{child.information}}</p>
+            <p [attr.id]="'info'+j" class="info" >{{child.informationtwo}}</p>
+            
+          </ion-item>
+          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
+            <ion-list>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option1}}</ion-item>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option2}}</ion-item>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option3}}</ion-item>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option4}}</ion-item>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option5}}</ion-item>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option6}}</ion-item>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option7}}</ion-item>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option8}}</ion-item>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option9}}</ion-item>
+              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option10}}</ion-item>
+            </ion-list>
+          </ion-item>
+          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
+          <p class = "contacts">
+            <ion-icon class = "contactDetails" name="call">{{child.phone}}</ion-icon>
+            <ion-icon class = "contactDetails"  name="phone-portrait">{{child.cell}}</ion-icon>
+            <ion-icon class = "contactDetails"  name="globe">{{child.website}}</ion-icon>
+            </p>
+          </ion-item>
+        </ion-list-header>
+      </ion-list>
+    </ion-list-header>
+  </ion-list>
+</ion-content>

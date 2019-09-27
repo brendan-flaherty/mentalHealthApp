@@ -1,0 +1,56 @@
+page-information {
+    .headericon {
+        margin-right: 2%;
+    }
+    .headericon img{
+        width:100%;
+    }
+    .grid{
+        width: 115%;
+        margin-top: -3%;
+        margin-left: -5%;
+    }
+    .toolbar-title h1{
+        padding-top:1rem;
+        
+    }
+    .toolbar-title h1{
+        color:#fff;
+        padding:1.65rem;
+        font-size:2rem;
+        
+    }
+    .info1{
+        background-color:#BA5A93;
+    }
+    .info2{
+        background-color:#cc62a1;
+    }
+    .info3{
+        background-color:#D070A9;
+    }
+    .info4{
+        background-color:#D57EB2;
+    }
+    .info5{
+        background-color:#D98CBA;
+    }
+    .info6{
+        background-color:#8F8EA5;
+    }
+    .info7{
+        background-color:#7F7E98;
+    }
+    .info8{
+        background-color:#7F7E98;
+    }
+    .info9{
+        background-color:#5F5E7E;
+    }
+    .info10{
+        background-color:#4F4E72;
+    }
+    .card-ios + ion-card{
+        margin-top:-7px;
+    }
+}
