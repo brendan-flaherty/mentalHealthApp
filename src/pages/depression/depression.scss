@@ -12,11 +12,12 @@ page-depression {
         border-bottom: 5px solid #ba5a93;
         box-shadow: none;
         background: none;
-        height:40%
     }
     .headerimg img{
-        width:60%;
-        margin-top:2%;
+        width: 50%;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
     }
     .accordion-list {
         background: color($colors, light);
@@ -64,7 +65,7 @@ page-depression {
         text-transform: none;
         color:#fff;
         font-weight:400;
-        margin-left: 1rem;
+        margin-left: -6%;
         font-family: "lato", sans-serif;
     }
     .list {
@@ -75,11 +76,25 @@ page-depression {
         width: 40%;
         margin-top: -5rem;
     }
-    .info{
+
+    .headtext{
+        color: #fff;
+        margin-left: 4px;
+        border-bottom: 1px dashed #fff;
+        font-sizE: 14px;
+        font-family: sans-serif;
+        font-family: "Lato Regular", sans-serif;
+        height: 30px;
+        margin-top: 2em;
     }
-    .contactDetails{
-        font-size: 3.8rem;
-        margin-right: 10%;
+    .info{
+        margin-left: 7%;
+    }
+
+    .infoPara{
+        font-family: "Roboto Light", sans-serif !important;
+        margin-bottom: 10px !important;
+        margin-top: 1em;
     }
     .optionList{
     background-color: #ba5a93;

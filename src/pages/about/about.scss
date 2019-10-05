@@ -10,26 +10,38 @@ page-about {
         margin-left:-2%;
     }
     .headerTitle{
-    text-align: center;
-    margin-left: 1%;
-    font-size: 1.2em;
-    font-weight: 600;
-    color: #212121;
+        text-align: left;
+        margin-left: 4%;
+        font-size: 1.2em;
+        font-weight: 600;
+        color: #212121;
     }
 
     .headerTitle.two{
-        text-align: right;
-        margin-right: 3rem;
+        text-align: left;
+        margin-left: 2.5rem;
+        color: #fff;
+        margin-bottom: -10px;
+        font-size: 1.4em;
+        font-weight: 400;
     }
 
     .headerTitle.three{
         text-align: left;
-        margin-left: 3rem;
+        margin-left: 2.5rem;
+        color: #fff;
+        margin-bottom: -10px;
+        font-size: 1.4em;
+        font-weight: 400;
     }
 
     .headerTitle.four{
-        text-align: right;
-        margin-right: 3rem;
+        text-align: left;
+        margin-left: 2.5rem;
+        color: #fff;
+        margin-bottom: -10px;
+        font-size: 1.4em;
+        font-weight: 400;
     }
     .about{
         margin-top: -8px;
@@ -40,24 +52,27 @@ page-about {
     }
     .about.one{
          background-color: #4F4E72;
+         margin-top:1px;
     }
 
     .about.two{
         background-color: #BA5A93;
-        width:90%;
+        margin-top:1px;
 
     }
     .about.three{
-         background-color: #4F4E72;
-         width:90%;
-         margin-left:10%;
+         background-color: #C4C461;
+         margin-top:1px;
     }
     .about.four{
-         background-color: #BA5A93;
-         width:90%;
+         background-color: #5A6062;
+         margin-top:1px;
     }
     .card-ios p{
-        color:#fff;
+        color: #fff;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
     }
     .aboutimg{
       margin-left: 0rem;

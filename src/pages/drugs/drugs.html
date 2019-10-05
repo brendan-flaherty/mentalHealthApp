@@ -40,10 +40,10 @@
           <!--Direct Add Button-->
 
           <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
-            <h2>{{child.name}}</h2>
-            <p>{{child.information}}</p>
-            <p><li>{{child.list}}</li></p>
-
+            <div class = "headtext">{{child.name}}</div>
+            <div  class = "info">
+              <p [attr.id]="'info'+j"  class="infoPara" >{{child.information}}</p>
+            </div>
           </ion-item>
         </ion-list-header>
       </ion-list>

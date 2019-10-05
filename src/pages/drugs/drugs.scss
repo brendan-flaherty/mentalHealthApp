@@ -12,16 +12,16 @@ page-drugs {
         border-bottom: 5px solid #7F7E98;
         box-shadow: none;
         background: none;
-        height:40%
     }
     .headerimg img{
-        width:60%;
-        margin-top:2%;
+        width: 50%;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
     }
     .accordion-list {
         background: color($colors, light);
-        height: 100%;
-
+        margin-top: -2%;
     }
     .section {
         background: #7F7E98;
@@ -49,36 +49,61 @@ page-drugs {
         color: #fff;
     }
     .label h1{
-        font-size: 2.5rem;
+        font-size: 2.4rem;
         padding-top: 3rem;
     }
     .label h2{
-        padding-top: 1rem;
+        padding-top: 3rem;
         color: #fff;
         margin-bottom: 13px;
         margin-left: 1rem;
-        font-size: 1.17rem;
+        font-size: 1.5rem;
         font-weight: 400;
-        border-bottom: 2px solid #fff;
-        font-family: "lato", sans-serif;
+        font-family: $font-family-base;
+        width:55%;
     }
     .label p{
         text-transform: none;
         color:#fff;
         font-weight:400;
-        margin-left: 1rem;
+        margin-left: -6%;
         font-family: "lato", sans-serif;
+        padding-bottom: 5px;
     }
     .list {
         margin-bottom: 4px;
+    }
+    .contacts{
+        float: right;
+        width: 40%;
+        margin-top: -5rem;
+    }
 
+    .headtext{
+        color: #fff;
+        margin-left: 4px;
+        border-bottom: 1px dashed #fff;
+        font-sizE: 14px;
+        font-family: sans-serif;
+        font-family: "Lato Regular", sans-serif;
+        height: 30px;
+        margin-top: 2em;
     }
-    .list p{
-        text-transform: none;
+    .info{
+        margin-left: 7%;
+    }
+
+    .infoPara{
+        font-family: "Roboto Light", sans-serif !important;
+        margin-bottom: 10px !important;
+        margin-top: 1em;
+    }
+    .optionList{
+        background-color: #ba5a93;
         font-size: 1.4rem;
+        color: #fff;
+        font-weight: 400;
+        margin-left: 1rem;
         font-family: "lato", sans-serif;
-    }
-    img{
-        width:160px;
     }
 }

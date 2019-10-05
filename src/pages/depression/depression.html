@@ -43,11 +43,20 @@
       </button>
 
           <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
-            <h2>{{child.name}}</h2>
-            <p [attr.id]="'info'+j" class="info" >{{child.information}}</p>
-            <p [attr.id]="'info'+j" class="info" >{{child.informationtwo}}</p>
+            <div class = "headtext">{{child.name}}</div>
+            <div  class = "info">
+              <p [attr.id]="'info'+j"  class="infoPara" >{{child.information}}</p>
+            </div>
+            <!-- <p [attr.id]="'info'+j" class="info two" >{{child.informationtwo}}</p> -->
             
           </ion-item>
+
+          
+          <!--<ion-card-content  *ngFor= let item of depression>
+              <p *ngFor="let option of item.options"> {{ option }}</p>
+            </ion-card-content>-->
+
+
           <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
             <ion-list>
               <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option1}}</ion-item>
@@ -62,13 +71,13 @@
               <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option10}}</ion-item>
             </ion-list>
           </ion-item>
-          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
+          <!--<ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
           <p class = "contacts">
             <ion-icon class = "contactDetails" name="call">{{child.phone}}</ion-icon>
             <ion-icon class = "contactDetails"  name="phone-portrait">{{child.cell}}</ion-icon>
             <ion-icon class = "contactDetails"  name="globe">{{child.website}}</ion-icon>
             </p>
-          </ion-item>
+          </ion-item>-->
         </ion-list-header>
       </ion-list>
     </ion-list-header>
