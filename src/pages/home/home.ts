@@ -1,3 +1,5 @@
+
+import { InformationPage } from './../information/information';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -9,6 +11,11 @@ export class HomePage {
 
   constructor(public navCtrl: NavController) {
 
+  }
+
+
+  informationOpen(){
+    this.navCtrl.push(InformationPage);
   }
 
 }

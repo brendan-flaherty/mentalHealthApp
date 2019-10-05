@@ -7,9 +7,11 @@ page-depression {
     }
     .headerimg{
         margin-left: 0%;
+        padding: 0;
         width: 100%;
-        margin-top: -3%;
-        border-bottom: 5px solid #ba5a93;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        -webkit-box-shadow: none;
         box-shadow: none;
         background: none;
     }
@@ -26,7 +28,7 @@ page-depression {
     .section {
         background: #BA5A93;
         color: #000;
-        margin-bottom: 4px;
+        margin-bottom: 1px;
         padding: 8%;
     }
     .section-active {
@@ -85,7 +87,10 @@ page-depression {
         font-family: sans-serif;
         font-family: "Lato Regular", sans-serif;
         height: 30px;
-        margin-top: 2em;
+        // margin-top: 2em;
+    }
+    #headtext_0{
+        margin-top:10px;
     }
     .info{
         margin-left: 7%;
@@ -103,6 +108,15 @@ page-depression {
     font-weight: 400;
     margin-left: 1rem;
     font-family: "lato", sans-serif;
+    }
+    .options{
+        margin-left: 1rem !important;
+        padding: 0px;
+    }
+
+    .arrowIcon{
+        margin-right: 10px;
+        color: #fff;
     }
 }
 

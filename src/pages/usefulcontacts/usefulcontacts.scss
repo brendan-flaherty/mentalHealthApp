@@ -32,39 +32,47 @@ page-usefulcontacts {
         background-color: #4f4e72;
 
     }
+
+    #usefulSection0 .child-item{
+        background-color: #4f4e72;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
     #usefulSection1 {
         background-color: #BA5A93;
     }
-    .child{
-        background-color: #BA5A93;
-        color: #fff;
-        margin-bottom: 4px;
-    }
-    .child-item{
+
+    #usefulSection1 .child-item{
         background-color: #BA5A93;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
-
     #usefulSection2 {
         background-color: #C4C461;
+    }
+
+    #usefulSection2 .child-item{
+        background-color: #C4C461;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     #usefulSection3 {
         background-color: #5A6062;
     }
 
+    #usefulSection3 .child-item{
+        background-color: #5A6062;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
     #usefulSection4 {
         background-color: #7F7E98;
     }
 
-    .child{
-        background-color: #4f4e72;
-        color: #fff;
-        margin-bottom: 4px;
-    }
-    .child-item{
-        background-color: #4f4e72;
+    #usefulSection4 .child-item{
+        background-color: #7F7E98;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
@@ -105,9 +113,13 @@ page-usefulcontacts {
     .info{
         width:50%;
     }
+    #info0{
+        border-top:1px dashed #fff;
+    }
     .contactDetails{
         font-size: 3.8rem;
         margin-right: 10%;
     }
+
 
 }

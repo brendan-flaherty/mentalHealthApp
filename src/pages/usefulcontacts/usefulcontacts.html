@@ -22,27 +22,26 @@
     <ion-list-header *ngFor="let item of information; let i = index"  no-lines no-padding>
 
       <button  ion-item (click)="toggleSelect(i)" [attr.id]="'usefulSection'+i" class="useful" detail-none [ngClass]="{'section-active' : item.open, 'section': !item.open}">
-        <!--<ion-icon item-left name = "arrow-forward" *ngIf="!item.open"></ion-icon>-->
-        <!--<ion-icon item-left name = "arrow-down" *ngIf="item.open"></ion-icon>-->
+
         <h1>{{item.name}}</h1>
       </button>
       <ion-list *ngIf="item.children && item.open" no-lines>
 
       <!--Second Level-->
 
-      <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>
+      <ion-list-header *ngFor="let child of item.children; let j = index" no-padding [attr.id]="'usefulSection'+i">
         <!--Toggle Button-->
-        <button ion-item (click)="toggleItem(i, j)"  detail-none class="child-item" *ngIf="child.children">
+        <button ion-item (click)="toggleItem(i, j)"  detail-none class="child-item" *ngIf="child.children" >
         <ion-icon item-left name = "add" *ngIf="!child.open"></ion-icon>
         <ion-icon item-left name = "close" *ngIf="child.open"></ion-icon>
         {{child.name}}
       </button>
         <!--Direct Add Button-->
 
-        <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
+        <ion-item *ngIf="!child.children" detail-none class="child-item level" [attr.id]="'info'+j" text-wrap>
           <h2>{{child.name}}</h2>
-          <p [attr.id]="'info'+j" class="info" >{{child.information}}</p>
-          <p [attr.id]="'info'+j" class="info" >{{child.informationtwo}}</p>
+          <p class="info" >{{child.information}}</p>
+          <p class="info" >{{child.informationtwo}}</p>
           <p class = "contacts">
           <ion-icon class = "contactDetails" name="call">{{child.phone}}</ion-icon>
           <ion-icon class = "contactDetails"  name="phone-portrait">{{child.cell}}</ion-icon>

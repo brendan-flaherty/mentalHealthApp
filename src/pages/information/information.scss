@@ -7,8 +7,17 @@ page-information {
     }
     .grid{
         width: 115%;
-        margin-top: -3%;
+        margin-top: -2%;
         margin-left: -5%;
+    }
+    .infoContainer{
+        padding: 1px;
+        background: none;
+        margin: 0px;
+        border-radius: 0px;
+        box-shadow: none;
+        display: flex;
+        margin-top: 1px;
     }
     .toolbar-title h1{
         padding-top:1rem;
@@ -20,37 +29,56 @@ page-information {
         font-size:2rem;
         
     }
-    .info1{
+
+    .infoContainer.info1{
         background-color:#BA5A93;
+        
     }
-    .info2{
+    .infoContainer.info2{
         background-color:#cc62a1;
+        margin-top: 1px;
     }
-    .info3{
+    .infoContainer.info3{
         background-color:#D070A9;
+        margin-top: 1px;
     }
-    .info4{
+    .infoContainer.info4{
         background-color:#D57EB2;
+        margin-top: 1px;
     }
-    .info5{
+    .infoContainer.info5{
         background-color:#D98CBA;
+        margin-top: 1px;
     }
-    .info6{
+    .infoContainer.info6{
         background-color:#8F8EA5;
+        margin-top: 1px;
     }
-    .info7{
+    .infoContainer.info7{
         background-color:#7F7E98;
+        margin-top: 1px;
     }
-    .info8{
+    .infoContainer.info8{
         background-color:#7F7E98;
+        margin-top: 1px;
     }
-    .info9{
+    .infoContainer.info9{
         background-color:#5F5E7E;
+        margin-top: 1px;
     }
-    .info10{
+    .infoContainer.info10{
         background-color:#4F4E72;
+        margin-top: 1px;
     }
     .card-ios + ion-card{
-        margin-top:-7px;
+        margin-top: -3px;
+        margin: 0px;
+        border-radius: 0px;
+        background: none;
+        box-shadow: none;
     }
+
+    [padding] h1:first-child {
+  margin-top: 0rem;
+}
 }

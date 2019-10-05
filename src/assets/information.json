@@ -18,7 +18,7 @@
     },
     {
       "name": "Symptoms",
-      "options": [
+      "children": [
         {
           "option1": "Persistent sad, anxious or ‘empty’ feelings",
           "option2": "Feelings of hopelessness and/or pessimism",

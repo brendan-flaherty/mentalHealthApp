@@ -7,9 +7,11 @@ page-eating {
     }
     .headerimg{
         margin-left: 0%;
+        padding: 0;
         width: 100%;
-        margin-top: -3%;
-        border-bottom: 5px solid #D070A9;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        -webkit-box-shadow: none;
         box-shadow: none;
         background: none;
     }
@@ -26,7 +28,7 @@ page-eating {
     .section {
         background: #D070A9;
         color: #000;
-        margin-bottom: 4px;
+        margin-bottom: 1px;
         padding: 8%;
     }
     .section-active {

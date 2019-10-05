@@ -9,21 +9,21 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-grid>
+  <ion-grid align-self-stretch>
     <ion-row>
 
         <ion-title>Minding your Mental Health</ion-title>
 
-      <ion-card class = "home one">
+      <ion-card class = "home one" (click) = "informationOpen()">
         <ion-card-header ><h1>Information</h1></ion-card-header>
       </ion-card>
       <ion-card class = "home two">
-        <ion-card-header><h1>KYSS</h1></ion-card-header>
-        <ion-card-content><h4>(Ger is available to talk)</h4></ion-card-content>
+        <ion-card-header><h1>KYSS <br><span style = "font-size:2rem">Talk Now</span></h1></ion-card-header>
+        <ion-card-content><h4>Ger is available</h4></ion-card-content>
       </ion-card>
       <ion-card class = "home three">
-        <ion-card-header ><h1>Talk Now</h1></ion-card-header>
-        <ion-card-content><h4>(Samaritans are available 24/7)</h4></ion-card-content>
+        <ion-card-header ><h1>Samaritans <br> <span style = "font-size:2rem">Talk Now</span></h1></ion-card-header>
+        <ion-card-content><h4>Available 24/7</h4></ion-card-content>
       </ion-card>
       <ion-card class = "home four">
         <ion-card-content ><p>Here are some things that help you to maintain good mental health, and which can help us when we start to feel down:</p></ion-card-content>

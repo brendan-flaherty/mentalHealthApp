@@ -39,36 +39,29 @@
           <!--Toggle Button-->
           <button ion-item (click)="toggleItem(i, j)" detail-none class="child-item" *ngIf="child.children">
         {{child.name}}
-        {{children.id}}
+        <!-- {{children.id}} -->
       </button>
 
           <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
-            <div class = "headtext">{{child.name}}</div>
+            <div class = "headtext" [attr.id]="'headtext_'+j">{{child.name}}</div>
             <div  class = "info">
               <p [attr.id]="'info'+j"  class="infoPara" >{{child.information}}</p>
+              <p >{{child.informationtwo}}</p>
             </div>
-            <!-- <p [attr.id]="'info'+j" class="info two" >{{child.informationtwo}}</p> -->
-            
           </ion-item>
-
-          
-          <!--<ion-card-content  *ngFor= let item of depression>
-              <p *ngFor="let option of item.options"> {{ option }}</p>
-            </ion-card-content>-->
-
 
           <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
             <ion-list>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option1}}</ion-item>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option2}}</ion-item>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option3}}</ion-item>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option4}}</ion-item>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option5}}</ion-item>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option6}}</ion-item>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option7}}</ion-item>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option8}}</ion-item>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option9}}</ion-item>
-              <ion-item  class="optionList"><ion-icon name="arrow-forward"></ion-icon> {{child.option10}}</ion-item>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option1}}</p>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option2}}</p>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option3}}</p>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option4}}</p>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option5}}</p>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option6}}</p>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option7}}</p>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option8}}</p>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option9}}</p>
+              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option10}}</p>
             </ion-list>
           </ion-item>
           <!--<ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
