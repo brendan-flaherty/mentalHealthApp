@@ -21,7 +21,7 @@
   </ion-card>
 
 
-      <!-- ACCORDION -->
+  <!-- ACCORDION -->
   <ion-list class="accordion-list">
     <!--First Level-->
     <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>
@@ -29,48 +29,34 @@
       <button ion-item (click)="toggleSelect(i)" detail-none [ngClass]="{'section-active' : item.open, 'section': !item.open}">
         <!--<ion-icon item-left name = "arrow-forward" *ngIf="!item.open"></ion-icon>
         <ion-icon item-left name = "arrow-down" *ngIf="item.open"></ion-icon>-->
-        <h1>{{item.name}}</h1>
+        <h1>{{item.name}}</h1>  
       </button>
-      <ion-list *ngIf="item.children && item.open" no-lines>
 
-        <!--Second Level-->
+
+      <ion-list *ngIf="item.children && item.open" no-lines>
+        <!-- Second Level -->
 
         <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>
           <!--Toggle Button-->
           <button ion-item (click)="toggleItem(i, j)" detail-none class="child-item" *ngIf="child.children">
-        {{child.name}}
-        <!-- {{children.id}} -->
+        <h1 class = "test">{{child.name}}</h1>
       </button>
 
           <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
             <div class = "headtext" [attr.id]="'headtext_'+j">{{child.name}}</div>
             <div  class = "info">
-              <p [attr.id]="'info'+j"  class="infoPara" >{{child.information}}</p>
-              <p >{{child.informationtwo}}</p>
+              <p [attr.id]="'info_'+j" class="infoPara" >{{child.information1}}</p>
+              <p class="infoPara" >{{child.information2}}</p>
+              <p class="infoPara" >{{child.information3}}</p>
+              <p class="infoPara" >{{child.information4}}</p>
+              <p class="infoPara" >{{child.information5}}</p>
+              <p class="infoPara" >{{child.information6}}</p>
+              <p class="infoPara" >{{child.information7}}</p>
+              <p class="infoPara" >{{child.information8}}</p>
+              <p class="infoPara" >{{child.information9}}</p>
+              <p class="infoPara" >{{child.information10}}</p>
             </div>
           </ion-item>
-
-          <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
-            <ion-list>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option1}}</p>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option2}}</p>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option3}}</p>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option4}}</p>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option5}}</p>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option6}}</p>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option7}}</p>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option8}}</p>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option9}}</p>
-              <p class ="options"><ion-icon name="play" class="arrowIcon"></ion-icon>{{child.option10}}</p>
-            </ion-list>
-          </ion-item>
-          <!--<ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
-          <p class = "contacts">
-            <ion-icon class = "contactDetails" name="call">{{child.phone}}</ion-icon>
-            <ion-icon class = "contactDetails"  name="phone-portrait">{{child.cell}}</ion-icon>
-            <ion-icon class = "contactDetails"  name="globe">{{child.website}}</ion-icon>
-            </p>
-          </ion-item>-->
         </ion-list-header>
       </ion-list>
     </ion-list-header>

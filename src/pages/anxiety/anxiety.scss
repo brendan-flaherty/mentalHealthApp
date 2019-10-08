@@ -76,27 +76,43 @@ page-anxiety {
     .list {
         margin-bottom: 4px;
     }
-    img{
-        width:160px;
+    .contacts{
+        float: right;
+        width: 40%;
+        margin-top: -5rem;
     }
+
     .headtext{
         color: #fff;
         margin-left: 4px;
         border-bottom: 1px dashed #fff;
-        font-sizE: 14px;
+        font-size: 14px;
         font-family: sans-serif;
         font-family: "Lato Regular", sans-serif;
         height: 30px;
-        margin-top: 2em;
+    }
+    #headtext_0{
+        margin-top:14px;
     }
     .info{
         margin-left: 7%;
+        margin-bottom: 10px;
+    }
+
+    #info_0{
+        margin-top: 10px;
     }
 
     .infoPara{
         font-family: "Roboto Light", sans-serif !important;
-        margin-bottom: 10px !important;
-        margin-top: 1em;
+        margin-bottom: 0px !important;
+        margin-top: 2px;
+    }
+
+
+    .arrowIcon{
+        margin-right: 10px;
+        color: #fff;
     }
 
 }

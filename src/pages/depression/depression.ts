@@ -5,6 +5,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import 'rxjs/add/operator/map';
 
+
 /**
  * Generated class for the DepressionPage page.
  *
@@ -28,6 +29,7 @@ export class DepressionPage {
       this.information = data;
       console.log(data);
     });
+  
 
   }
 

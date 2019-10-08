@@ -16,6 +16,7 @@
   <ion-card class="headerimg">
     <img src='assets/imgs/relationship.png' float-right />
   </ion-card>
+  <!-- ACCORDION -->
   <ion-list class="accordion-list">
     <!--First Level-->
     <ion-list-header *ngFor="let item of information; let i = index" no-lines no-padding>
@@ -23,25 +24,25 @@
       <button ion-item (click)="toggleSelect(i)" detail-none [ngClass]="{'section-active' : item.open, 'section': !item.open}">
         <!--<ion-icon item-left name = "arrow-forward" *ngIf="!item.open"></ion-icon>
         <ion-icon item-left name = "arrow-down" *ngIf="item.open"></ion-icon>-->
-        <h1>{{item.name}}</h1>
+        <h1>{{item.name}}</h1>  
       </button>
-      <ion-list *ngIf="item.children && item.open" no-lines>
 
-        <!--Second Level-->
+
+      <ion-list *ngIf="item.children && item.open" no-lines>
+        <!-- Second Level -->
 
         <ion-list-header *ngFor="let child of item.children; let j = index" no-padding>
           <!--Toggle Button-->
           <button ion-item (click)="toggleItem(i, j)" detail-none class="child-item" *ngIf="child.children">
-        <ion-icon item-left name = "add" *ngIf="!child.open"></ion-icon>
-        <ion-icon item-left name = "close" *ngIf="child.open"></ion-icon>
-        {{child.name}}
+        <h1 class = "test">{{child.name}}</h1>
       </button>
-          <!--Direct Add Button-->
 
           <ion-item *ngIf="!child.children" detail-none class="child-item" text-wrap>
-            <div class = "headtext">{{child.name}}</div>
+            <div class = "headtext" [attr.id]="'headtext_'+j">{{child.name}}</div>
             <div  class = "info">
-              <p [attr.id]="'info'+j"  class="infoPara" >{{child.information}}</p>
+              <p [attr.id]="'info_'+j" class="infoPara" >{{child.information1}}</p>
+              <p class="infoPara" >{{child.information2}}</p>
+              <p class="infoPara" >{{child.information3}}</p>
             </div>
           </ion-item>
         </ion-list-header>
