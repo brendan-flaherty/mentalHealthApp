@@ -1,0 +1,8 @@
+ISSUES needing solving
+
+Loop through the json file so that only the expected results are shown on each page. This is mainly for the information pages
+Include Phone numbers, email address that are contactable when clicked on each information page ie. depression, anxiety, eating etc . This has to be done on the useful contacts aswell
+Populate an icon with each number & contact details - ion icons should work
+Give the user the ability to ring KYSS and the samaritans on the home page. We can copy and paste this functionality to the side menu for the Samaritans
+
+If you get one or two of the contact details working and the loops, just get it sorted on one and send it back to me and I will fill in everything and then at least we can both sit down and do the deployment
